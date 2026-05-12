@@ -242,7 +242,7 @@ Response includes:
 ## Contributors
 
 - Aman Sharma - project owner, engineering, product architecture
-- Angel - project collaborator, research and product contribution
+- Angel - project collaborator,engineering, research and product contribution
 
 ## Disclaimer
 
