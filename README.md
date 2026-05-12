@@ -247,4 +247,3 @@ Response includes:
 ## Disclaimer
 
 LawWise provides legal information for educational and navigational purposes only. It does not provide legal advice and does not replace consultation with a qualified advocate. Legal outcomes depend on facts, jurisdiction, documents, procedure, and applicable law.
-
