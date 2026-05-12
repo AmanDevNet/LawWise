@@ -1,0 +1,8 @@
+[
+  {
+    "query": "Can my landlord evict me without notice?",
+    "expected_act_contains": "Transfer of Property",
+    "expected_section": "106",
+    "reason": "Lease termination notice requirements are directly governed by Transfer of Property Act, 1882, Section 106."
+  }
+]

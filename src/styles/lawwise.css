@@ -1,0 +1,182 @@
+/* LawWise Design System */
+
+:root {
+  --lw-navy: #0F2040;
+  --lw-navy-mid: #1A3460;
+  --lw-ink: #0D1117;
+  --lw-teal: #2A6B7C;
+  --lw-teal-light: #3D8A9E;
+  --lw-gold: #C4974A;
+  --lw-gold-light: #D4AB6E;
+  --lw-sandstone: #F5F0E8;
+  --lw-sandstone-dark: #EDE5D8;
+  --lw-warm-white: #FAF8F4;
+  --lw-border: #E2D9CC;
+  --lw-muted: #6B6560;
+  --lw-muted-light: #9E9590;
+  --lw-red: #C0392B;
+  --lw-green: #1E6B47;
+  --lw-amber: #B8780A;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--lw-warm-white);
+  color: var(--lw-ink);
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Sidebar */
+.lw-sidebar {
+  background: var(--lw-navy);
+  border-right: 1px solid rgba(255,255,255,0.06);
+}
+
+/* Premium card */
+.lw-card {
+  background: #ffffff;
+  border: 1px solid var(--lw-border);
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(15,32,64,0.06), 0 4px 12px rgba(15,32,64,0.04);
+}
+
+.lw-card-warm {
+  background: var(--lw-sandstone);
+  border: 1px solid var(--lw-sandstone-dark);
+  border-radius: 10px;
+}
+
+/* Urgency badges */
+.badge-critical {
+  background: #FFF0EE;
+  color: var(--lw-red);
+  border: 1px solid #FACFC9;
+}
+
+.badge-moderate {
+  background: #FFF8E8;
+  color: var(--lw-amber);
+  border: 1px solid #F0DFA8;
+}
+
+.badge-low {
+  background: #EEF7F2;
+  color: var(--lw-green);
+  border: 1px solid #B8DECA;
+}
+
+/* Citation card */
+.lw-citation {
+  background: #F0F4F8;
+  border-left: 3px solid var(--lw-teal);
+  border-radius: 0 6px 6px 0;
+  padding: 10px 14px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.78rem;
+}
+
+/* Primary button */
+.lw-btn-primary {
+  background: var(--lw-navy);
+  color: white;
+  padding: 10px 22px;
+  border-radius: 7px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: background 0.18s ease;
+  cursor: pointer;
+  border: none;
+}
+
+.lw-btn-primary:hover {
+  background: var(--lw-navy-mid);
+}
+
+.lw-btn-secondary {
+  background: transparent;
+  color: var(--lw-navy);
+  padding: 10px 22px;
+  border-radius: 7px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: all 0.18s ease;
+  cursor: pointer;
+  border: 1.5px solid var(--lw-navy);
+}
+
+.lw-btn-secondary:hover {
+  background: var(--lw-navy);
+  color: white;
+}
+
+.lw-btn-teal {
+  background: var(--lw-teal);
+  color: white;
+  padding: 10px 22px;
+  border-radius: 7px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: background 0.18s ease;
+  cursor: pointer;
+  border: none;
+}
+
+.lw-btn-teal:hover {
+  background: var(--lw-teal-light);
+}
+
+/* Emergency button */
+.lw-emergency {
+  background: var(--lw-red);
+  color: white;
+  border-radius: 7px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 0.85rem;
+  padding: 8px 16px;
+  cursor: pointer;
+  border: none;
+  transition: opacity 0.18s;
+}
+
+.lw-emergency:hover {
+  opacity: 0.88;
+}
+
+/* Gold accent text */
+.text-gold {
+  color: var(--lw-gold);
+}
+
+/* Divider */
+.lw-divider {
+  border: none;
+  border-top: 1px solid var(--lw-border);
+  margin: 0;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--lw-border);
+  border-radius: 99px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--lw-muted-light);
+}
